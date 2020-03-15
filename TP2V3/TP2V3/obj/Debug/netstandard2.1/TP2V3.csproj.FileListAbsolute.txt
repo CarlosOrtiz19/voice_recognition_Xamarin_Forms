@@ -1,0 +1,13 @@
+C:\Users\18229\Desktop\Session_4\Programation_mobile\TP2V3\TP2V3\TP2V3\TP2V3\bin\Debug\netstandard2.1\TP2V3.deps.json
+C:\Users\18229\Desktop\Session_4\Programation_mobile\TP2V3\TP2V3\TP2V3\TP2V3\bin\Debug\netstandard2.1\TP2V3.dll
+C:\Users\18229\Desktop\Session_4\Programation_mobile\TP2V3\TP2V3\TP2V3\TP2V3\bin\Debug\netstandard2.1\ref\TP2V3.dll
+C:\Users\18229\Desktop\Session_4\Programation_mobile\TP2V3\TP2V3\TP2V3\TP2V3\bin\Debug\netstandard2.1\TP2V3.pdb
+C:\Users\18229\Desktop\Session_4\Programation_mobile\TP2V3\TP2V3\TP2V3\TP2V3\obj\Debug\netstandard2.1\App.xaml.g.cs
+C:\Users\18229\Desktop\Session_4\Programation_mobile\TP2V3\TP2V3\TP2V3\TP2V3\obj\Debug\netstandard2.1\MainPage.xaml.g.cs
+C:\Users\18229\Desktop\Session_4\Programation_mobile\TP2V3\TP2V3\TP2V3\TP2V3\obj\Debug\netstandard2.1\Resultat.xaml.g.cs
+C:\Users\18229\Desktop\Session_4\Programation_mobile\TP2V3\TP2V3\TP2V3\TP2V3\obj\Debug\netstandard2.1\TP2V3.AssemblyInfoInputs.cache
+C:\Users\18229\Desktop\Session_4\Programation_mobile\TP2V3\TP2V3\TP2V3\TP2V3\obj\Debug\netstandard2.1\TP2V3.AssemblyInfo.cs
+C:\Users\18229\Desktop\Session_4\Programation_mobile\TP2V3\TP2V3\TP2V3\TP2V3\obj\Debug\netstandard2.1\TP2V3.dll
+C:\Users\18229\Desktop\Session_4\Programation_mobile\TP2V3\TP2V3\TP2V3\TP2V3\obj\Debug\netstandard2.1\ref\TP2V3.dll
+C:\Users\18229\Desktop\Session_4\Programation_mobile\TP2V3\TP2V3\TP2V3\TP2V3\obj\Debug\netstandard2.1\TP2V3.pdb
+C:\Users\18229\Desktop\Session_4\Programation_mobile\TP2V3\TP2V3\TP2V3\TP2V3\obj\Debug\netstandard2.1\TP2V3.csprojAssemblyReference.cache

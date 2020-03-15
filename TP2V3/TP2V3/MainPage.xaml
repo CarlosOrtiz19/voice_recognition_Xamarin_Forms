@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+mc:Ignorable="d"
+x:Class="TP2V3.MainPage">
+
+    <Frame
+        CornerRadius="20"
+        Padding="20"
+        Margin="20">
+        <StackLayout>
+            <Label Text="VOIX RECHERCHE"
+                HorizontalTextAlignment="Center"
+                FontSize="30"
+                Padding="10"/>
+
+            <BoxView
+                HeightRequest="3"
+                BackgroundColor="LightGoldenrodYellow"/>
+            <Label
+                Margin="25"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                Text="Apuyez sur le micro et dictez les mots clefs de mots recherchés"
+                FontSize="12"/>
+
+            <BoxView
+                HeightRequest="3"
+                BackgroundColor="GreenYellow"/>
+
+            <Frame BorderColor="Gray"
+                CornerRadius="5"
+                Padding="20"
+                Margin="20">
+                <StackLayout>
+                    <Label Text="Ce que je compris"
+                        FontSize="Medium"
+                        HorizontalTextAlignment="Center"
+                        FontAttributes="Bold" />
+                    <BoxView Color="Gray"
+                        HeightRequest="2"
+                        HorizontalOptions="Fill" />
+                    <Label 
+                        x:Name ="resultatLabel"
+                        FontSize="Medium"
+                        HorizontalTextAlignment="Center"
+                       />
+                </StackLayout>
+            </Frame>
+
+            <BoxView
+                HeightRequest="3"
+                BackgroundColor="GreenYellow"/>
+
+            <Label
+                Text="RESULTATS: "/>
+
+            <Button
+                Clicked="Button_Clicked"
+                Text="Afficher les resultats"/>
+
+            <BoxView
+                HeightRequest="3"
+                BackgroundColor="GreenYellow"/>
+            
+            <Picker 
+                    x:Name="laguage"
+                    SelectedIndexChanged ="laguage_SelectedIndexChanged"
+                    IsVisible="false"
+                    Title="--Select language--"
+                    TitleColor="LightGray">
+                <Picker.Items>
+                    <x:String>FR</x:String>
+                    <x:String>ES</x:String>
+                    <x:String>EN</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <StackLayout
+                VerticalOptions="EndAndExpand"
+                Orientation="Horizontal">
+
+                <ImageButton
+                    x:Name="microphoneButton"
+                    Clicked="ImageButton_Clicked"
+                    Padding="4"
+                    CornerRadius="50"
+                    BackgroundColor="Yellow"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="EndAndExpand"
+                    Source="microphone3"
+                   
+                    />
+
+                
+                <Button
+                    x:Name="changeLangue"
+                    Clicked="Button_Clicked_1"
+                    BackgroundColor="Beige"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="End"
+                    Text= "{Binding rememberLanguage}"/>
+            </StackLayout>
+
+        </StackLayout>
+
+    </Frame>
+
+</ContentPage>
